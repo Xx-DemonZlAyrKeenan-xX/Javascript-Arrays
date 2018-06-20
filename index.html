@@ -44,7 +44,7 @@ kata8.textContent = JSON.stringify(only);
 
 var empty = [];
 var cityArr = gotCitiesCSV.split(',');
-for (let i = 0; i < cityArr.length; i ++) {
+for (let i = 0; i < cityArr.length; i +=1) {
     if (cityArr[i].includes('aa') || (cityArr[i].includes('ee'))) {
         empty.unshift(cityArr[i]);
     }
